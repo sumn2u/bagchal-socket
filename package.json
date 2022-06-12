@@ -16,9 +16,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "engines": {
-    "node": "8.x"
-  },
   "repository": {
     "url": "https://glitch.com/edit/#!/panoramic-tendency"
   }
