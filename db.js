@@ -1,8 +1,11 @@
 var fs = require("fs");
-var dbFile = "./sqlite.db";
+const { join } = require("path");
+const { Database } = require("sqlite3");
+// var dbFile = "./sqlite.db";
+
+const dbFile = join(__dirname, ".", "sqlite", "sqlite.db");
 var exists = fs.existsSync(dbFile);
-var sqlite3 = require("sqlite3").verbose();
-var db = new sqlite3.Database(dbFile);
+var db = new Database(dbFile);
 
 // if ./.data/sqlite.db does not exist, create it, otherwise print records to console
 db.serialize(function () {
