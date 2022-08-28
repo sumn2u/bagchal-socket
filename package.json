@@ -1,22 +1,21 @@
 {
-  "name": "nodejs-sqlite-backend",
-  "version": "1.0.0",
-  "description": "NodeJS SQLite Backend Demo",
+  "name": "bagchal-socket",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
   "main": "index.js",
-  "author": "Suman Kunwar",
-  "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "cors": "^2.8.4",
-    "crypto-js": "^3.1.9-1",
-    "dotenv": "^6.0.0",
-    "express": "^4.16.3",
-    "sqlite3": "^4.0.1"
-  },
   "scripts": {
     "start": "node index.js"
   },
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^1.7.1"
+  },
   "repository": {
-    "url": "https://glitch.com/edit/#!/panoramic-tendency"
-  }
+    "url": "https://github.com/sumn2u/baghchal"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "bagchal"
+  ]
 }
